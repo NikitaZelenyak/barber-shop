@@ -1,0 +1,108 @@
+/*  
+вторичный оранжевы color: #FF6C00;
+цвет заголовков color: #303030;
+цвет текста color: #555555;
+вторичный цвет color: #9DA4BD;
+ */
+:root {
+  --secondary-accent-color: #ff6c00;
+  --color-title: #303030;
+  --color-text: #555555;
+  --secondary-text-color: #9da4bd;
+  --white-colot: #ffffff;
+  --opacity-color: rgba(157, 164, 189, 0.6);
+}
+body {
+  color: var(--color-text);
+
+  font-family: Open Sans, sans-serif;
+}
+/* header */
+.header {
+  background-color: brown;
+}
+.hero-link:hover,
+.hero-link:focus,
+.header-link:hover,
+.header-link:focus {
+  color: var(--secondary-accent-color);
+}
+
+.header-button {
+  cursor: pointer;
+  color: var(--white-colot);
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.09em;
+  border: 1px solid var(--secondary-accent-color);
+}
+.header-button:focus,
+.header-button:hover {
+  background-color: var(--secondary-accent-color);
+  color: var(--white-colot);
+}
+/* hero */
+.hero-link {
+  color: var(--color-title);
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.2em;
+}
+.header-link {
+  color: var(--white-colot);
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.hero-text-opacity {
+  color: var(--opacity-color);
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+}
+.hero {
+  background-color: brown;
+}
+.hero-title {
+  color: var(--white-colot);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.hero-text {
+  color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+.hero-button {
+  color: var(--opacity-color);
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--white-colot);
+}
+.aboutus-section-text {
+  color: var(--color-title);
+}
